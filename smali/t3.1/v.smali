@@ -1,0 +1,73 @@
+.class public abstract Lt3/v;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# static fields
+.field public static final a:Ljd/k;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 6
+
+    .line 1
+    const-string v4, "r"
+
+    .line 2
+    .line 3
+    const-string v5, "hd"
+
+    .line 4
+    .line 5
+    const-string v0, "nm"
+
+    .line 6
+    .line 7
+    const-string v1, "c"
+
+    .line 8
+    .line 9
+    const-string v2, "o"
+
+    .line 10
+    .line 11
+    const-string v3, "fillEnabled"
+
+    .line 12
+    .line 13
+    filled-new-array/range {v0 .. v5}, [Ljava/lang/String;
+
+    .line 14
+    .line 15
+    .line 16
+    move-result-object v0
+
+    .line 17
+    invoke-static {v0}, Ljd/k;->n([Ljava/lang/String;)Ljd/k;
+
+    .line 18
+    .line 19
+    .line 20
+    move-result-object v0
+
+    .line 21
+    sput-object v0, Lt3/v;->a:Ljd/k;
+
+    .line 22
+    .line 23
+    return-void
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+.end method

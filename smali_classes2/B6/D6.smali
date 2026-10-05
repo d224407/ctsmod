@@ -1,0 +1,1009 @@
+.class public abstract LB6/D6;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# direct methods
+.method public static a(LK6/p;)Ljava/lang/Object;
+    .locals 3
+
+    .line 1
+    const-string v0, "Must not be called on the main application thread"
+
+    .line 2
+    .line 3
+    invoke-static {v0}, Lcom/google/android/gms/common/internal/F;->g(Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    invoke-static {}, Landroid/os/Looper;->myLooper()Landroid/os/Looper;
+
+    .line 7
+    .line 8
+    .line 9
+    move-result-object v0
+
+    .line 10
+    if-eqz v0, :cond_1
+
+    .line 11
+    .line 12
+    invoke-virtual {v0}, Landroid/os/Looper;->getThread()Ljava/lang/Thread;
+
+    .line 13
+    .line 14
+    .line 15
+    move-result-object v0
+
+    .line 16
+    invoke-virtual {v0}, Ljava/lang/Thread;->getName()Ljava/lang/String;
+
+    .line 17
+    .line 18
+    .line 19
+    move-result-object v0
+
+    .line 20
+    const-string v1, "GoogleApiHandler"
+
+    .line 21
+    .line 22
+    invoke-static {v0, v1}, Ljava/util/Objects;->equals(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    .line 23
+    .line 24
+    .line 25
+    move-result v0
+
+    .line 26
+    if-nez v0, :cond_0
+
+    .line 27
+    .line 28
+    goto :goto_0
+
+    .line 29
+    :cond_0
+    new-instance p0, Ljava/lang/IllegalStateException;
+
+    .line 30
+    .line 31
+    const-string v0, "Must not be called on GoogleApiHandler thread."
+
+    .line 32
+    .line 33
+    invoke-direct {p0, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    .line 34
+    .line 35
+    .line 36
+    throw p0
+
+    .line 37
+    :cond_1
+    :goto_0
+    invoke-virtual {p0}, LK6/p;->h()Z
+
+    .line 38
+    .line 39
+    .line 40
+    move-result v0
+
+    .line 41
+    if-eqz v0, :cond_2
+
+    .line 42
+    .line 43
+    invoke-static {p0}, LB6/D6;->h(LK6/p;)Ljava/lang/Object;
+
+    .line 44
+    .line 45
+    .line 46
+    move-result-object p0
+
+    .line 47
+    return-object p0
+
+    .line 48
+    :cond_2
+    new-instance v0, LD8/c;
+
+    .line 49
+    .line 50
+    const/16 v1, 0x19
+
+    .line 51
+    .line 52
+    const/4 v2, 0x0
+
+    .line 53
+    invoke-direct {v0, v1, v2}, LD8/c;-><init>(IB)V
+
+    .line 54
+    .line 55
+    .line 56
+    sget-object v1, LK6/j;->b:LK6/o;
+
+    .line 57
+    .line 58
+    invoke-virtual {p0, v1, v0}, LK6/p;->c(Ljava/util/concurrent/Executor;LK6/f;)LK6/p;
+
+    .line 59
+    .line 60
+    .line 61
+    invoke-virtual {p0, v1, v0}, LK6/p;->b(Ljava/util/concurrent/Executor;LK6/e;)LK6/p;
+
+    .line 62
+    .line 63
+    .line 64
+    invoke-virtual {p0, v1, v0}, LK6/p;->a(Ljava/util/concurrent/Executor;LK6/c;)LK6/p;
+
+    .line 65
+    .line 66
+    .line 67
+    iget-object v0, v0, LD8/c;->D:Ljava/lang/Object;
+
+    .line 68
+    .line 69
+    check-cast v0, Ljava/util/concurrent/CountDownLatch;
+
+    .line 70
+    .line 71
+    invoke-virtual {v0}, Ljava/util/concurrent/CountDownLatch;->await()V
+
+    .line 72
+    .line 73
+    .line 74
+    invoke-static {p0}, LB6/D6;->h(LK6/p;)Ljava/lang/Object;
+
+    .line 75
+    .line 76
+    .line 77
+    move-result-object p0
+
+    .line 78
+    return-object p0
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+.end method
+
+.method public static b(LK6/p;JLjava/util/concurrent/TimeUnit;)Ljava/lang/Object;
+    .locals 3
+
+    .line 1
+    const-string v0, "Must not be called on the main application thread"
+
+    .line 2
+    .line 3
+    invoke-static {v0}, Lcom/google/android/gms/common/internal/F;->g(Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    invoke-static {}, Landroid/os/Looper;->myLooper()Landroid/os/Looper;
+
+    .line 7
+    .line 8
+    .line 9
+    move-result-object v0
+
+    .line 10
+    if-eqz v0, :cond_1
+
+    .line 11
+    .line 12
+    invoke-virtual {v0}, Landroid/os/Looper;->getThread()Ljava/lang/Thread;
+
+    .line 13
+    .line 14
+    .line 15
+    move-result-object v0
+
+    .line 16
+    invoke-virtual {v0}, Ljava/lang/Thread;->getName()Ljava/lang/String;
+
+    .line 17
+    .line 18
+    .line 19
+    move-result-object v0
+
+    .line 20
+    const-string v1, "GoogleApiHandler"
+
+    .line 21
+    .line 22
+    invoke-static {v0, v1}, Ljava/util/Objects;->equals(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    .line 23
+    .line 24
+    .line 25
+    move-result v0
+
+    .line 26
+    if-nez v0, :cond_0
+
+    .line 27
+    .line 28
+    goto :goto_0
+
+    .line 29
+    :cond_0
+    new-instance p0, Ljava/lang/IllegalStateException;
+
+    .line 30
+    .line 31
+    const-string p1, "Must not be called on GoogleApiHandler thread."
+
+    .line 32
+    .line 33
+    invoke-direct {p0, p1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    .line 34
+    .line 35
+    .line 36
+    throw p0
+
+    .line 37
+    :cond_1
+    :goto_0
+    const-string v0, "Task must not be null"
+
+    .line 38
+    .line 39
+    invoke-static {p0, v0}, Lcom/google/android/gms/common/internal/F;->i(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 40
+    .line 41
+    .line 42
+    const-string v0, "TimeUnit must not be null"
+
+    .line 43
+    .line 44
+    invoke-static {p3, v0}, Lcom/google/android/gms/common/internal/F;->i(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 45
+    .line 46
+    .line 47
+    invoke-virtual {p0}, LK6/p;->h()Z
+
+    .line 48
+    .line 49
+    .line 50
+    move-result v0
+
+    .line 51
+    if-eqz v0, :cond_2
+
+    .line 52
+    .line 53
+    invoke-static {p0}, LB6/D6;->h(LK6/p;)Ljava/lang/Object;
+
+    .line 54
+    .line 55
+    .line 56
+    move-result-object p0
+
+    .line 57
+    return-object p0
+
+    .line 58
+    :cond_2
+    new-instance v0, LD8/c;
+
+    .line 59
+    .line 60
+    const/16 v1, 0x19
+
+    .line 61
+    .line 62
+    const/4 v2, 0x0
+
+    .line 63
+    invoke-direct {v0, v1, v2}, LD8/c;-><init>(IB)V
+
+    .line 64
+    .line 65
+    .line 66
+    sget-object v1, LK6/j;->b:LK6/o;
+
+    .line 67
+    .line 68
+    invoke-virtual {p0, v1, v0}, LK6/p;->c(Ljava/util/concurrent/Executor;LK6/f;)LK6/p;
+
+    .line 69
+    .line 70
+    .line 71
+    invoke-virtual {p0, v1, v0}, LK6/p;->b(Ljava/util/concurrent/Executor;LK6/e;)LK6/p;
+
+    .line 72
+    .line 73
+    .line 74
+    invoke-virtual {p0, v1, v0}, LK6/p;->a(Ljava/util/concurrent/Executor;LK6/c;)LK6/p;
+
+    .line 75
+    .line 76
+    .line 77
+    iget-object v0, v0, LD8/c;->D:Ljava/lang/Object;
+
+    .line 78
+    .line 79
+    check-cast v0, Ljava/util/concurrent/CountDownLatch;
+
+    .line 80
+    .line 81
+    invoke-virtual {v0, p1, p2, p3}, Ljava/util/concurrent/CountDownLatch;->await(JLjava/util/concurrent/TimeUnit;)Z
+
+    .line 82
+    .line 83
+    .line 84
+    move-result p1
+
+    .line 85
+    if-eqz p1, :cond_3
+
+    .line 86
+    .line 87
+    invoke-static {p0}, LB6/D6;->h(LK6/p;)Ljava/lang/Object;
+
+    .line 88
+    .line 89
+    .line 90
+    move-result-object p0
+
+    .line 91
+    return-object p0
+
+    .line 92
+    :cond_3
+    new-instance p0, Ljava/util/concurrent/TimeoutException;
+
+    .line 93
+    .line 94
+    const-string p1, "Timed out waiting for Task"
+
+    .line 95
+    .line 96
+    invoke-direct {p0, p1}, Ljava/util/concurrent/TimeoutException;-><init>(Ljava/lang/String;)V
+
+    .line 97
+    .line 98
+    .line 99
+    throw p0
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+.end method
+
+.method public static c(Ljava/util/concurrent/Callable;Ljava/util/concurrent/Executor;)LK6/p;
+    .locals 3
+
+    .line 1
+    const-string v0, "Executor must not be null"
+
+    .line 2
+    .line 3
+    invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/F;->i(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    new-instance v0, LK6/p;
+
+    .line 7
+    .line 8
+    invoke-direct {v0}, LK6/p;-><init>()V
+
+    .line 9
+    .line 10
+    .line 11
+    new-instance v1, Lp7/c;
+
+    .line 12
+    .line 13
+    const/16 v2, 0xf
+
+    .line 14
+    .line 15
+    invoke-direct {v1, v0, v2, p0}, Lp7/c;-><init>(Ljava/lang/Object;ILjava/lang/Object;)V
+
+    .line 16
+    .line 17
+    .line 18
+    invoke-interface {p1, v1}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
+
+    .line 19
+    .line 20
+    .line 21
+    return-object v0
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+.end method
+
+.method public static d(Ljava/lang/Exception;)LK6/p;
+    .locals 1
+
+    .line 1
+    new-instance v0, LK6/p;
+
+    .line 2
+    .line 3
+    invoke-direct {v0}, LK6/p;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    invoke-virtual {v0, p0}, LK6/p;->m(Ljava/lang/Exception;)V
+
+    .line 7
+    .line 8
+    .line 9
+    return-object v0
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+.end method
+
+.method public static e(Ljava/lang/Object;)LK6/p;
+    .locals 1
+
+    .line 1
+    new-instance v0, LK6/p;
+
+    .line 2
+    .line 3
+    invoke-direct {v0}, LK6/p;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    invoke-virtual {v0, p0}, LK6/p;->n(Ljava/lang/Object;)V
+
+    .line 7
+    .line 8
+    .line 9
+    return-object v0
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+.end method
+
+.method public static f(Ljava/util/List;)LK6/p;
+    .locals 4
+
+    .line 1
+    if-eqz p0, :cond_4
+
+    .line 2
+    .line 3
+    invoke-interface {p0}, Ljava/util/Collection;->isEmpty()Z
+
+    .line 4
+    .line 5
+    .line 6
+    move-result v0
+
+    .line 7
+    if-eqz v0, :cond_0
+
+    .line 8
+    .line 9
+    goto :goto_2
+
+    .line 10
+    :cond_0
+    invoke-interface {p0}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
+
+    .line 11
+    .line 12
+    .line 13
+    move-result-object v0
+
+    .line 14
+    :goto_0
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+
+    .line 15
+    .line 16
+    .line 17
+    move-result v1
+
+    .line 18
+    if-eqz v1, :cond_2
+
+    .line 19
+    .line 20
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    .line 21
+    .line 22
+    .line 23
+    move-result-object v1
+
+    .line 24
+    check-cast v1, LK6/h;
+
+    .line 25
+    .line 26
+    if-eqz v1, :cond_1
+
+    .line 27
+    .line 28
+    goto :goto_0
+
+    .line 29
+    :cond_1
+    new-instance p0, Ljava/lang/NullPointerException;
+
+    .line 30
+    .line 31
+    const-string v0, "null tasks are not accepted"
+
+    .line 32
+    .line 33
+    invoke-direct {p0, v0}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
+
+    .line 34
+    .line 35
+    .line 36
+    throw p0
+
+    .line 37
+    :cond_2
+    new-instance v0, LK6/p;
+
+    .line 38
+    .line 39
+    invoke-direct {v0}, LK6/p;-><init>()V
+
+    .line 40
+    .line 41
+    .line 42
+    new-instance v1, LK6/k;
+
+    .line 43
+    .line 44
+    invoke-interface {p0}, Ljava/util/Collection;->size()I
+
+    .line 45
+    .line 46
+    .line 47
+    move-result v2
+
+    .line 48
+    invoke-direct {v1, v2, v0}, LK6/k;-><init>(ILK6/p;)V
+
+    .line 49
+    .line 50
+    .line 51
+    invoke-interface {p0}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
+
+    .line 52
+    .line 53
+    .line 54
+    move-result-object p0
+
+    .line 55
+    :goto_1
+    invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
+
+    .line 56
+    .line 57
+    .line 58
+    move-result v2
+
+    .line 59
+    if-eqz v2, :cond_3
+
+    .line 60
+    .line 61
+    invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    .line 62
+    .line 63
+    .line 64
+    move-result-object v2
+
+    .line 65
+    check-cast v2, LK6/h;
+
+    .line 66
+    .line 67
+    sget-object v3, LK6/j;->b:LK6/o;
+
+    .line 68
+    .line 69
+    invoke-virtual {v2, v3, v1}, LK6/h;->c(Ljava/util/concurrent/Executor;LK6/f;)LK6/p;
+
+    .line 70
+    .line 71
+    .line 72
+    invoke-virtual {v2, v3, v1}, LK6/h;->b(Ljava/util/concurrent/Executor;LK6/e;)LK6/p;
+
+    .line 73
+    .line 74
+    .line 75
+    invoke-virtual {v2, v3, v1}, LK6/h;->a(Ljava/util/concurrent/Executor;LK6/c;)LK6/p;
+
+    .line 76
+    .line 77
+    .line 78
+    goto :goto_1
+
+    .line 79
+    :cond_3
+    return-object v0
+
+    .line 80
+    :cond_4
+    :goto_2
+    const/4 p0, 0x0
+
+    .line 81
+    invoke-static {p0}, LB6/D6;->e(Ljava/lang/Object;)LK6/p;
+
+    .line 82
+    .line 83
+    .line 84
+    move-result-object p0
+
+    .line 85
+    return-object p0
+    .line 86
+    .line 87
+.end method
+
+.method public static varargs g([LK6/h;)LK6/p;
+    .locals 4
+
+    .line 1
+    array-length v0, p0
+
+    .line 2
+    if-nez v0, :cond_0
+
+    .line 3
+    .line 4
+    invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
+
+    .line 5
+    .line 6
+    .line 7
+    move-result-object p0
+
+    .line 8
+    invoke-static {p0}, LB6/D6;->e(Ljava/lang/Object;)LK6/p;
+
+    .line 9
+    .line 10
+    .line 11
+    move-result-object p0
+
+    .line 12
+    return-object p0
+
+    .line 13
+    :cond_0
+    invoke-static {p0}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
+
+    .line 14
+    .line 15
+    .line 16
+    move-result-object p0
+
+    .line 17
+    sget-object v0, LK6/j;->a:LH4/q;
+
+    .line 18
+    .line 19
+    if-eqz p0, :cond_2
+
+    .line 20
+    .line 21
+    invoke-interface {p0}, Ljava/util/Collection;->isEmpty()Z
+
+    .line 22
+    .line 23
+    .line 24
+    move-result v1
+
+    .line 25
+    if-eqz v1, :cond_1
+
+    .line 26
+    .line 27
+    goto :goto_0
+
+    .line 28
+    :cond_1
+    invoke-static {p0}, LB6/D6;->f(Ljava/util/List;)LK6/p;
+
+    .line 29
+    .line 30
+    .line 31
+    move-result-object v1
+
+    .line 32
+    new-instance v2, Ls3/b;
+
+    .line 33
+    .line 34
+    const/16 v3, 0x1b
+
+    .line 35
+    .line 36
+    invoke-direct {v2, p0, v3}, Ls3/b;-><init>(Ljava/lang/Object;I)V
+
+    .line 37
+    .line 38
+    .line 39
+    invoke-virtual {v1, v0, v2}, LK6/p;->e(Ljava/util/concurrent/Executor;LK6/b;)LK6/p;
+
+    .line 40
+    .line 41
+    .line 42
+    move-result-object p0
+
+    .line 43
+    goto :goto_1
+
+    .line 44
+    :cond_2
+    :goto_0
+    invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
+
+    .line 45
+    .line 46
+    .line 47
+    move-result-object p0
+
+    .line 48
+    invoke-static {p0}, LB6/D6;->e(Ljava/lang/Object;)LK6/p;
+
+    .line 49
+    .line 50
+    .line 51
+    move-result-object p0
+
+    .line 52
+    :goto_1
+    return-object p0
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+.end method
+
+.method public static h(LK6/p;)Ljava/lang/Object;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, LK6/p;->i()Z
+
+    .line 2
+    .line 3
+    .line 4
+    move-result v0
+
+    .line 5
+    if-eqz v0, :cond_0
+
+    .line 6
+    .line 7
+    invoke-virtual {p0}, LK6/p;->g()Ljava/lang/Object;
+
+    .line 8
+    .line 9
+    .line 10
+    move-result-object p0
+
+    .line 11
+    return-object p0
+
+    .line 12
+    :cond_0
+    iget-boolean v0, p0, LK6/p;->d:Z
+
+    .line 13
+    .line 14
+    if-eqz v0, :cond_1
+
+    .line 15
+    .line 16
+    new-instance p0, Ljava/util/concurrent/CancellationException;
+
+    .line 17
+    .line 18
+    const-string v0, "Task is already canceled"
+
+    .line 19
+    .line 20
+    invoke-direct {p0, v0}, Ljava/util/concurrent/CancellationException;-><init>(Ljava/lang/String;)V
+
+    .line 21
+    .line 22
+    .line 23
+    throw p0
+
+    .line 24
+    :cond_1
+    new-instance v0, Ljava/util/concurrent/ExecutionException;
+
+    .line 25
+    .line 26
+    invoke-virtual {p0}, LK6/p;->f()Ljava/lang/Exception;
+
+    .line 27
+    .line 28
+    .line 29
+    move-result-object p0
+
+    .line 30
+    invoke-direct {v0, p0}, Ljava/util/concurrent/ExecutionException;-><init>(Ljava/lang/Throwable;)V
+
+    .line 31
+    .line 32
+    .line 33
+    throw v0
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+.end method
