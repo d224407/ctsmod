@@ -31,20 +31,6 @@
     .line 7
     .line 8
     return-void
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 
@@ -67,29 +53,6 @@
     .line 7
     .line 8
     throw p1
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
 .end method
 
 .method public final addAll(Ljava/util/Collection;)Z
@@ -110,29 +73,6 @@
     .line 7
     .line 8
     throw p1
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
 .end method
 
 .method public final clear()V
@@ -153,20 +93,6 @@
     .line 7
     .line 8
     throw v0
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public final contains(Ljava/lang/Object;)Z
@@ -202,23 +128,6 @@
     .line 13
     .line 14
     return v1
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
 .end method
 
 .method public final containsAll(Ljava/util/Collection;)Z
@@ -243,27 +152,6 @@
 
     .line 10
     return p1
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
 .end method
 
 .method public final equals(Ljava/lang/Object;)Z
@@ -306,21 +194,6 @@
     .line 16
     :goto_0
     return p1
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
 .end method
 
 .method public final hashCode()I
@@ -331,26 +204,6 @@
 
     .line 2
     return v0
-    .line 3
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public final isEmpty()Z
@@ -361,26 +214,6 @@
 
     .line 2
     return v0
-    .line 3
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public final iterator()Ljava/util/Iterator;
@@ -392,25 +225,6 @@
     .line 2
     .line 3
     return-object v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public final remove(Ljava/lang/Object;)Z
@@ -431,29 +245,6 @@
     .line 7
     .line 8
     throw p1
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
 .end method
 
 .method public final removeAll(Ljava/util/Collection;)Z
@@ -474,29 +265,6 @@
     .line 7
     .line 8
     throw p1
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
 .end method
 
 .method public final retainAll(Ljava/util/Collection;)Z
@@ -517,29 +285,6 @@
     .line 7
     .line 8
     throw p1
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
 .end method
 
 .method public final bridge size()I
@@ -550,26 +295,6 @@
 
     .line 2
     return v0
-    .line 3
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public final toArray()[Ljava/lang/Object;
@@ -607,23 +332,4 @@
     .line 2
     .line 3
     return-object v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method

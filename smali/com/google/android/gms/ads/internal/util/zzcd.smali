@@ -131,8 +131,4 @@
 
     .line 55
     return-object p0
-    .line 56
-    .line 57
-    .line 58
-    .line 59
 .end method

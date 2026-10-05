@@ -168,6 +168,4 @@
     .line 64
     .line 65
     return-object v0
-    .line 66
-    .line 67
 .end method

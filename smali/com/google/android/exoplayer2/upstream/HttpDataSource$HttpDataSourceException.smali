@@ -217,8 +217,4 @@
     .line 55
     :goto_1
     return-object p1
-    .line 56
-    .line 57
-    .line 58
-    .line 59
 .end method

@@ -119,5 +119,4 @@
 
     .line 35
     return-object v0
-    .line 36
 .end method

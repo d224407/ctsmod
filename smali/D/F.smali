@@ -317,17 +317,4 @@
         :pswitch_1
         :pswitch_0
     .end packed-switch
-    .line 132
-    .line 133
-    .line 134
-    .line 135
-    .line 136
-    .line 137
-    .line 138
-    .line 139
-    .line 140
-    .line 141
-    .line 142
-    .line 143
-    .line 144
 .end method

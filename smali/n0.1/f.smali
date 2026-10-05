@@ -576,19 +576,4 @@
 
     .line 114
     return-wide p1
-    .line 115
-    .line 116
-    .line 117
-    .line 118
-    .line 119
-    .line 120
-    .line 121
-    .line 122
-    .line 123
-    .line 124
-    .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
 .end method

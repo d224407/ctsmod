@@ -1,7 +1,3 @@
-.class public abstract Lta/d;
-.super Lta/F;
+.class public final Lta/D;
+.super Lta/E;
 .source "SourceFile"
-
-
-# static fields
-.field public static final synthetic l:I

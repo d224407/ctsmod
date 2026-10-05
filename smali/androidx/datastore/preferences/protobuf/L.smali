@@ -78,10 +78,4 @@
     .line 29
     .line 30
     return-void
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
 .end method

@@ -67,11 +67,6 @@
     .line 17
     :cond_0
     return v1
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public final getType()Ljava/lang/String;
@@ -118,9 +113,4 @@
     .line 17
     :cond_0
     return-object v1
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method

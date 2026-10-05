@@ -66,5 +66,4 @@
     .line 29
     .line 30
     return-object v0
-    .line 31
 .end method

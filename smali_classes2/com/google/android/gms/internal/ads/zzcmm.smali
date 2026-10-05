@@ -81,7 +81,4 @@
 
     .line 28
     return-object p1
-    .line 29
-    .line 30
-    .line 31
 .end method

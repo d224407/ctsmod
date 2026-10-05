@@ -125,5 +125,4 @@
     .line 48
     :catch_1
     return-void
-    .line 49
 .end method

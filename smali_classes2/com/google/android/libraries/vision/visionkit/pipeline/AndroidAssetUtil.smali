@@ -53,18 +53,6 @@
 
     .line 19
     throw p0
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
 .end method
 
 .method private static native nativeInitializeAssetManager(Landroid/content/Context;Ljava/lang/String;)Z

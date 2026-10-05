@@ -1015,29 +1015,4 @@
     .line 486
     .line 487
     throw v0
-    .line 488
-    .line 489
-    .line 490
-    .line 491
-    .line 492
-    .line 493
-    .line 494
-    .line 495
-    .line 496
-    .line 497
-    .line 498
-    .line 499
-    .line 500
-    .line 501
-    .line 502
-    .line 503
-    .line 504
-    .line 505
-    .line 506
-    .line 507
-    .line 508
-    .line 509
-    .line 510
-    .line 511
-    .line 512
 .end method

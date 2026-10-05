@@ -141,12 +141,4 @@
     :cond_3
     :goto_0
     return-void
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
 .end method

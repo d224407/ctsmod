@@ -211,5 +211,4 @@
     .line 65
     .line 66
     return-object v0
-    .line 67
 .end method

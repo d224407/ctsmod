@@ -111,6 +111,4 @@
     .line 33
     .line 34
     return-object v3
-    .line 35
-    .line 36
 .end method

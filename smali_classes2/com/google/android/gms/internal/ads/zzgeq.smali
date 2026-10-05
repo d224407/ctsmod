@@ -84,6 +84,4 @@
 
     .line 29
     goto :goto_0
-    .line 30
-    .line 31
 .end method

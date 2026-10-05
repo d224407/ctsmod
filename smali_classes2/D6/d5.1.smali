@@ -76,7 +76,4 @@
     .line 27
     .line 28
     return-void
-    .line 29
-    .line 30
-    .line 31
 .end method

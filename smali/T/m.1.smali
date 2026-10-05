@@ -92,13 +92,6 @@
     .packed-switch 0x0
         :pswitch_0
     .end packed-switch
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
 .end method
 
 .method public final b()V
@@ -168,11 +161,4 @@
     .packed-switch 0x0
         :pswitch_0
     .end packed-switch
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
 .end method

@@ -135,5 +135,4 @@
     .line 58
     :cond_2
     throw v0
-    .line 59
 .end method

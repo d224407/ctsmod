@@ -79,7 +79,6 @@
 
     .line 21
     return v0
-    .line 22
 .end method
 
 .method public final next()Ljava/lang/Object;
@@ -127,6 +126,4 @@
 
     .line 20
     return-object v0
-    .line 21
-    .line 22
 .end method

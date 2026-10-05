@@ -107,7 +107,4 @@
     .line 32
     .line 33
     return-object v0
-    .line 34
-    .line 35
-    .line 36
 .end method

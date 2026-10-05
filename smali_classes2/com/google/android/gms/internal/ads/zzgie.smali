@@ -78,6 +78,4 @@
 
     .line 29
     return-object p1
-    .line 30
-    .line 31
 .end method

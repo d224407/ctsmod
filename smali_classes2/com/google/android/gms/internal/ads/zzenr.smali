@@ -83,5 +83,4 @@
     .line 30
     :goto_0
     return-object p1
-    .line 31
 .end method

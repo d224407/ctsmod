@@ -551,17 +551,4 @@
     .packed-switch 0x0
         :pswitch_0
     .end packed-switch
-    .line 246
-    .line 247
-    .line 248
-    .line 249
-    .line 250
-    .line 251
-    .line 252
-    .line 253
-    .line 254
-    .line 255
-    .line 256
-    .line 257
-    .line 258
 .end method

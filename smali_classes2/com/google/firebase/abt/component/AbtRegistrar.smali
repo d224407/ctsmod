@@ -77,17 +77,6 @@
     .line 19
     .line 20
     return-object v0
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
 .end method
 
 
@@ -219,12 +208,4 @@
 
     .line 59
     return-object v0
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
 .end method

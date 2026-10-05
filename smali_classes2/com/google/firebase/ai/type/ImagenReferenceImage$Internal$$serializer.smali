@@ -177,19 +177,6 @@
     .line 53
     .line 54
     return-void
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
 .end method
 
 .method private constructor <init>()V
@@ -345,10 +332,6 @@
     .line 62
     .line 63
     return-object v7
-    .line 64
-    .line 65
-    .line 66
-    .line 67
 .end method
 
 .method public final deserialize(LEb/c;)Lcom/google/firebase/ai/type/ImagenReferenceImage$Internal;
@@ -572,25 +555,6 @@
     .line 2
     .line 3
     return-object v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public final serialize(LEb/d;Lcom/google/firebase/ai/type/ImagenReferenceImage$Internal;)V
@@ -644,23 +608,4 @@
     .line 2
     .line 3
     return-object v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method

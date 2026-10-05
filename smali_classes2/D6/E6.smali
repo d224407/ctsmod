@@ -72,5 +72,4 @@
     .line 29
     .line 30
     throw p0
-    .line 31
 .end method

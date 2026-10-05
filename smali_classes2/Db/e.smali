@@ -146,7 +146,4 @@
     .line 63
     .line 64
     return-void
-    .line 65
-    .line 66
-    .line 67
 .end method

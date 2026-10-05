@@ -203,7 +203,4 @@
     .line 63
     .line 64
     return-object v0
-    .line 65
-    .line 66
-    .line 67
 .end method

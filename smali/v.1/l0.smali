@@ -48,24 +48,6 @@
     .line 17
     .line 18
     return-void
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
 .end method
 
 .method public static final a(Lv/l0;Lv/i0;)V
@@ -194,5 +176,4 @@
     .line 57
     .line 58
     goto :goto_0
-    .line 59
 .end method

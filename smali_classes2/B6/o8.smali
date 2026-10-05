@@ -495,8 +495,4 @@
     .packed-switch 0x0
         :pswitch_0
     .end packed-switch
-    .line 210
-    .line 211
-    .line 212
-    .line 213
 .end method

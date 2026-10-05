@@ -55,14 +55,6 @@
     .line 22
     .line 23
     return-object p0
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
 .end method
 
 .method public static b(Landroid/view/View;La7/g;)V
@@ -170,5 +162,4 @@
     .line 48
     :cond_1
     return-void
-    .line 49
 .end method

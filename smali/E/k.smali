@@ -81,14 +81,6 @@
     .line 27
     .line 28
     return-void
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
 .end method
 
 .method public synthetic constructor <init>(II)V
@@ -199,7 +191,4 @@
         :pswitch_1
         :pswitch_0
     .end packed-switch
-    .line 42
-    .line 43
-    .line 44
 .end method

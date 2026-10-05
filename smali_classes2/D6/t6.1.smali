@@ -62,11 +62,6 @@
     .line 26
     :goto_0
     return-object p0
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
 .end method
 
 .method public static final b(Ln9/s;)Ln9/f;
@@ -131,7 +126,4 @@
     .line 28
     :goto_0
     return-object p0
-    .line 29
-    .line 30
-    .line 31
 .end method

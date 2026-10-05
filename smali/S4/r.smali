@@ -127,5 +127,4 @@
         :pswitch_1
         :pswitch_0
     .end packed-switch
-    .line 44
 .end method

@@ -101,8 +101,4 @@
     .line 44
     .line 45
     return-void
-    .line 46
-    .line 47
-    .line 48
-    .line 49
 .end method

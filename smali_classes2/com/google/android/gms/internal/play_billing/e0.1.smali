@@ -162,8 +162,6 @@
     .line 64
     .line 65
     return-void
-    .line 66
-    .line 67
 .end method
 
 .method public synthetic constructor <init>(I)V

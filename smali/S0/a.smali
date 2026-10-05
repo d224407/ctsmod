@@ -112,13 +112,6 @@
     .packed-switch 0x0
         :pswitch_0
     .end packed-switch
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
 .end method
 
 .method public final updateMeasureState(Landroid/text/TextPaint;)V
@@ -208,11 +201,4 @@
     .packed-switch 0x0
         :pswitch_0
     .end packed-switch
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
 .end method

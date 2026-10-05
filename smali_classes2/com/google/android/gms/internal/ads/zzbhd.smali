@@ -21,22 +21,6 @@
     .line 5
     .line 6
     return-void
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 
@@ -532,15 +516,4 @@
         :pswitch_1
         :pswitch_0
     .end packed-switch
-    .line 236
-    .line 237
-    .line 238
-    .line 239
-    .line 240
-    .line 241
-    .line 242
-    .line 243
-    .line 244
-    .line 245
-    .line 246
 .end method

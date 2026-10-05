@@ -841,16 +841,4 @@
         :pswitch_1
         :pswitch_0
     .end packed-switch
-    .line 400
-    .line 401
-    .line 402
-    .line 403
-    .line 404
-    .line 405
-    .line 406
-    .line 407
-    .line 408
-    .line 409
-    .line 410
-    .line 411
 .end method

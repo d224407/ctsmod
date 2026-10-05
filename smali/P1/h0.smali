@@ -326,7 +326,4 @@
     .packed-switch 0x0
         :pswitch_0
     .end packed-switch
-    .line 142
-    .line 143
-    .line 144
 .end method

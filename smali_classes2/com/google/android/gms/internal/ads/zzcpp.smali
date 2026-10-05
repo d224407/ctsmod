@@ -76,5 +76,4 @@
     .line 20
     .line 21
     return-object v1
-    .line 22
 .end method

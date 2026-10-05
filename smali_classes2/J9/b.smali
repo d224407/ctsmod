@@ -54,11 +54,6 @@
     .line 16
     .line 17
     return-void
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public synthetic constructor <init>(I)V
@@ -169,10 +164,6 @@
     .packed-switch 0x0
         :pswitch_0
     .end packed-switch
-    .line 46
-    .line 47
-    .line 48
-    .line 49
 .end method
 
 .method public final reversed()Ljava/util/Comparator;
@@ -210,13 +201,4 @@
     .packed-switch 0x0
         :pswitch_0
     .end packed-switch
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method

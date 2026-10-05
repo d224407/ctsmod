@@ -82,5 +82,4 @@
     .line 21
     :goto_0
     return-object v0
-    .line 22
 .end method

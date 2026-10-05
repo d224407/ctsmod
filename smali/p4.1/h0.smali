@@ -113,9 +113,4 @@
     .line 38
     .line 39
     return-object p1
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
 .end method

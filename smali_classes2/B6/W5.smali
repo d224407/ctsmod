@@ -505,14 +505,4 @@
     .line 231
     :goto_4
     return v2
-    .line 232
-    .line 233
-    .line 234
-    .line 235
-    .line 236
-    .line 237
-    .line 238
-    .line 239
-    .line 240
-    .line 241
 .end method

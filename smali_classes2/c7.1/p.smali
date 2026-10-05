@@ -133,8 +133,6 @@
     .packed-switch 0x1
         :pswitch_0
     .end packed-switch
-    .line 30
-    .line 31
 .end method
 
 .method public final onAnimationEnd(Landroid/animation/Animator;)V
@@ -308,12 +306,6 @@
     .packed-switch 0x0
         :pswitch_0
     .end packed-switch
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
 .end method
 
 .method public final onAnimationStart(Landroid/animation/Animator;)V
@@ -374,10 +366,4 @@
     .packed-switch 0x0
         :pswitch_0
     .end packed-switch
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
 .end method

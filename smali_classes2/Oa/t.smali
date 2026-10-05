@@ -65,7 +65,4 @@
 
     .line 28
     throw p1
-    .line 29
-    .line 30
-    .line 31
 .end method

@@ -1982,16 +1982,4 @@
         :pswitch_1
         :pswitch_0
     .end packed-switch
-    .line 928
-    .line 929
-    .line 930
-    .line 931
-    .line 932
-    .line 933
-    .line 934
-    .line 935
-    .line 936
-    .line 937
-    .line 938
-    .line 939
 .end method

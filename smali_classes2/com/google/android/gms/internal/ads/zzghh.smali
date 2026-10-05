@@ -114,5 +114,4 @@
     .line 47
     .line 48
     throw p1
-    .line 49
 .end method

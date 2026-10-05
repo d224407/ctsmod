@@ -90,6 +90,4 @@
     .line 42
     :goto_0
     return-void
-    .line 43
-    .line 44
 .end method

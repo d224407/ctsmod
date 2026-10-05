@@ -83,8 +83,4 @@
     .line 26
     .line 27
     return-object v1
-    .line 28
-    .line 29
-    .line 30
-    .line 31
 .end method

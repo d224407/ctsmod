@@ -135,16 +135,6 @@
     .line 56
     .line 57
     return-void
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
 .end method
 
 .method public constructor <init>(Z[I)V
@@ -373,11 +363,4 @@
     .line 80
     :goto_5
     return v0
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
 .end method

@@ -67,16 +67,6 @@
     .line 25
     .line 26
     return-void
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
 .end method
 
 
@@ -553,70 +543,4 @@
     .line 225
     .line 226
     throw p1
-    .line 227
-    .line 228
-    .line 229
-    .line 230
-    .line 231
-    .line 232
-    .line 233
-    .line 234
-    .line 235
-    .line 236
-    .line 237
-    .line 238
-    .line 239
-    .line 240
-    .line 241
-    .line 242
-    .line 243
-    .line 244
-    .line 245
-    .line 246
-    .line 247
-    .line 248
-    .line 249
-    .line 250
-    .line 251
-    .line 252
-    .line 253
-    .line 254
-    .line 255
-    .line 256
-    .line 257
-    .line 258
-    .line 259
-    .line 260
-    .line 261
-    .line 262
-    .line 263
-    .line 264
-    .line 265
-    .line 266
-    .line 267
-    .line 268
-    .line 269
-    .line 270
-    .line 271
-    .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
-    .line 277
-    .line 278
-    .line 279
-    .line 280
-    .line 281
-    .line 282
-    .line 283
-    .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
 .end method

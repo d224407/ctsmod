@@ -74,12 +74,6 @@
     .line 29
     .line 30
     return-void
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
 .end method
 
 .method public static a(Ljava/lang/String;)I
@@ -341,14 +335,4 @@
     .line 118
     .line 119
     throw p0
-    .line 120
-    .line 121
-    .line 122
-    .line 123
-    .line 124
-    .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
 .end method

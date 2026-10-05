@@ -198,12 +198,4 @@
     .line 98
     .line 99
     throw p0
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
 .end method

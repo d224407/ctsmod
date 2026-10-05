@@ -193,12 +193,4 @@
     .packed-switch 0x0
         :pswitch_0
     .end packed-switch
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
 .end method

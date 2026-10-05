@@ -2006,19 +2006,4 @@
 
     .line 951
     throw v0
-    .line 952
-    .line 953
-    .line 954
-    .line 955
-    .line 956
-    .line 957
-    .line 958
-    .line 959
-    .line 960
-    .line 961
-    .line 962
-    .line 963
-    .line 964
-    .line 965
-    .line 966
 .end method

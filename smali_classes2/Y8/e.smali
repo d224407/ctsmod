@@ -106,7 +106,6 @@
     .packed-switch 0x0
         :pswitch_0
     .end packed-switch
-    .line 22
 .end method
 
 .method public final I()Ls9/e;
@@ -160,7 +159,6 @@
     .packed-switch 0x0
         :pswitch_0
     .end packed-switch
-    .line 22
 .end method
 
 .method public final M()Lo9/e;
@@ -214,7 +212,6 @@
     .packed-switch 0x0
         :pswitch_0
     .end packed-switch
-    .line 22
 .end method
 
 .method public final a()Ln9/n;
@@ -268,7 +265,6 @@
     .packed-switch 0x0
         :pswitch_0
     .end packed-switch
-    .line 22
 .end method
 
 .method public final e()Ln9/D;
@@ -322,7 +318,6 @@
     .packed-switch 0x0
         :pswitch_0
     .end packed-switch
-    .line 22
 .end method
 
 .method public final g()LK9/h;
@@ -376,5 +371,4 @@
     .packed-switch 0x0
         :pswitch_0
     .end packed-switch
-    .line 22
 .end method

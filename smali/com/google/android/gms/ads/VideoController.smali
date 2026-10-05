@@ -132,14 +132,6 @@
 
     .line 28
     throw v1
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
 .end method
 
 .method public getVideoLifecycleCallbacks()Lcom/google/android/gms/ads/VideoController$VideoLifecycleCallbacks;
@@ -174,32 +166,6 @@
 
     .line 10
     throw v1
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
 .end method
 
 .method public hasVideoContent()Z
@@ -249,27 +215,6 @@
 
     .line 15
     throw v1
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
 .end method
 
 .method public isClickToExpandEnabled()Z
@@ -356,14 +301,6 @@
 
     .line 28
     throw v1
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
 .end method
 
 .method public isCustomControlsEnabled()Z
@@ -450,14 +387,6 @@
 
     .line 28
     throw v1
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
 .end method
 
 .method public isMuted()Z
@@ -544,14 +473,6 @@
 
     .line 28
     throw v1
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
 .end method
 
 .method public mute(Z)V
@@ -630,25 +551,6 @@
 
     .line 25
     throw p1
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
 .end method
 
 .method public pause()V
@@ -727,17 +629,6 @@
 
     .line 25
     throw v1
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
 .end method
 
 .method public play()V
@@ -816,17 +707,6 @@
 
     .line 25
     throw v1
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
 .end method
 
 .method public setVideoLifecycleCallbacks(Lcom/google/android/gms/ads/VideoController$VideoLifecycleCallbacks;)V
@@ -933,13 +813,6 @@
 
     .line 37
     throw p1
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
 .end method
 
 .method public stop()V
@@ -1018,17 +891,6 @@
 
     .line 25
     throw v1
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
 .end method
 
 .method public final zza()Lcom/google/android/gms/ads/internal/client/zzed;
@@ -1063,32 +925,6 @@
 
     .line 10
     throw v1
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
 .end method
 
 .method public final zzb(Lcom/google/android/gms/ads/internal/client/zzed;)V
@@ -1145,29 +981,4 @@
 
     .line 19
     throw p1
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
 .end method

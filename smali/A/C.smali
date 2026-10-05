@@ -266,24 +266,4 @@
 
     .line 117
     return-object p1
-    .line 118
-    .line 119
-    .line 120
-    .line 121
-    .line 122
-    .line 123
-    .line 124
-    .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
-    .line 131
-    .line 132
-    .line 133
-    .line 134
-    .line 135
-    .line 136
-    .line 137
 .end method

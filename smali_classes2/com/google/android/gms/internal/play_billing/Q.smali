@@ -37,18 +37,6 @@
     .line 9
     .line 10
     return-void
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public constructor <init>(Ljava/lang/Object;)V
@@ -165,8 +153,6 @@
     .line 46
     .line 47
     throw p1
-    .line 48
-    .line 49
 .end method
 
 .method public final cancel(Z)Z
@@ -254,7 +240,4 @@
 
     .line 19
     return-object v0
-    .line 20
-    .line 21
-    .line 22
 .end method

@@ -367,6 +367,4 @@
 
     .line 156
     return-wide p0
-    .line 157
-    .line 158
 .end method

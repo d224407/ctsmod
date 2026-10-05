@@ -87,12 +87,6 @@
     .line 25
     :cond_1
     return v1
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
 .end method
 
 .method public final hashCode()I

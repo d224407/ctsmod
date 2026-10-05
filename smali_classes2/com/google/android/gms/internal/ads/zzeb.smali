@@ -100,10 +100,6 @@
     .line 26
     .line 27
     throw v0
-    .line 28
-    .line 29
-    .line 30
-    .line 31
 .end method
 
 .method public final zzc(J)V
@@ -162,12 +158,6 @@
     .line 24
     .line 25
     return-void
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
 .end method
 
 .method public final zzd([J)V

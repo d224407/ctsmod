@@ -89,8 +89,4 @@
     .line 27
     :cond_0
     return-void
-    .line 28
-    .line 29
-    .line 30
-    .line 31
 .end method

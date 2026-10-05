@@ -38,38 +38,6 @@
     .line 3
     .line 4
     return-void
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
 .end method
 
 
@@ -817,44 +785,6 @@
     .line 373
     :cond_7
     return-void
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
-    .line 380
-    .line 381
-    .line 382
-    .line 383
-    .line 384
-    .line 385
-    .line 386
-    .line 387
-    .line 388
-    .line 389
-    .line 390
-    .line 391
-    .line 392
-    .line 393
-    .line 394
-    .line 395
-    .line 396
-    .line 397
-    .line 398
-    .line 399
-    .line 400
-    .line 401
-    .line 402
-    .line 403
-    .line 404
-    .line 405
-    .line 406
-    .line 407
-    .line 408
-    .line 409
-    .line 410
-    .line 411
 .end method
 
 .method public final onSaveInstanceState(Landroid/os/Bundle;)V
@@ -939,8 +869,4 @@
     .line 40
     :cond_3
     return-void
-    .line 41
-    .line 42
-    .line 43
-    .line 44
 .end method

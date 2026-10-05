@@ -43,7 +43,4 @@
 
     .line 19
     return-object v0
-    .line 20
-    .line 21
-    .line 22
 .end method

@@ -38,26 +38,6 @@
     .line 10
     .line 11
     return-void
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
 .end method
 
 
@@ -341,31 +321,4 @@
     .line 130
     .line 131
     throw p1
-    .line 132
-    .line 133
-    .line 134
-    .line 135
-    .line 136
-    .line 137
-    .line 138
-    .line 139
-    .line 140
-    .line 141
-    .line 142
-    .line 143
-    .line 144
-    .line 145
-    .line 146
-    .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
-    .line 153
-    .line 154
-    .line 155
-    .line 156
-    .line 157
-    .line 158
 .end method

@@ -60,14 +60,6 @@
     .line 22
     .line 23
     return-object v0
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
 .end method
 
 
@@ -278,14 +270,4 @@
     .line 97
     :goto_1
     return v1
-    .line 98
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
 .end method

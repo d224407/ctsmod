@@ -51,11 +51,6 @@
     .line 16
     .line 17
     return-void
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public constructor <init>(Landroid/content/Context;LE8/j;Ljava/lang/String;)V
@@ -255,16 +250,4 @@
 
     .line 95
     throw p1
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
 .end method

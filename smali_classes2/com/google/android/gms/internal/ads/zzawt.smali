@@ -51,10 +51,6 @@
     .line 17
     .line 18
     return-void
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 
@@ -119,5 +115,4 @@
     .line 29
     .line 30
     return-object p1
-    .line 31
 .end method

@@ -99,9 +99,6 @@
     .packed-switch 0x0
         :pswitch_0
     .end packed-switch
-    .line 34
-    .line 35
-    .line 36
 .end method
 
 .method public final onInvalidated()V
@@ -161,15 +158,4 @@
     .packed-switch 0x0
         :pswitch_0
     .end packed-switch
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
 .end method

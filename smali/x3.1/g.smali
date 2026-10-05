@@ -97,5 +97,4 @@
     .line 42
     .line 43
     return-void
-    .line 44
 .end method

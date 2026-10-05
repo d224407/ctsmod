@@ -128,7 +128,4 @@
     .line 45
     .line 46
     return-void
-    .line 47
-    .line 48
-    .line 49
 .end method

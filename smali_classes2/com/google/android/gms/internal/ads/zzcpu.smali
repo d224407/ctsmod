@@ -161,8 +161,4 @@
     .line 63
     :cond_1
     return-void
-    .line 64
-    .line 65
-    .line 66
-    .line 67
 .end method
