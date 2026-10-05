@@ -18,15 +18,6 @@
     <!-- Ứng dụng này có thể ghi âm bằng micrô bất kỳ lúc nào. -->
     <uses-permission
         android:name="android.permission.RECORD_AUDIO" />
-    <!-- Cho phép một ứng dụng của nhà xuất bản truy cập vào mã nhận dạng hợp lệ cho quảng cáo theo cách trực tiếp hoặc gián tiếp. -->
-    <uses-permission
-        android:name="com.google.android.gms.permission.AD_ID" />
-    <uses-permission
-        android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
-    <uses-permission
-        android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
-    <uses-permission
-        android:name="android.permission.ACCESS_ADSERVICES_TOPICS" />
     <queries>
         <intent>
             <action
@@ -149,9 +140,6 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/file_paths" />
         </provider>
-        <meta-data
-            android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-1971527456718472~9854355971" />
         <service
             android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
             android:exported="false"
@@ -174,54 +162,6 @@
             android:exported="false"
             android:authorities="com.circletosearch.android.mlkitinitprovider"
             android:initOrder="99" />
-        <activity
-            android:theme="@android:style/Theme.Translucent"
-            android:name="com.google.android.gms.ads.AdActivity"
-            android:exported="false"
-            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" />
-        <provider
-            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
-            android:exported="false"
-            android:authorities="com.circletosearch.android.mobileadsinitprovider"
-            android:initOrder="100" />
-        <service
-            android:name="com.google.android.gms.ads.AdService"
-            android:enabled="true"
-            android:exported="false" />
-        <activity
-            android:name="com.google.android.gms.ads.OutOfContextTestingActivity"
-            android:exported="false"
-            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" />
-        <activity
-            android:theme="@android:style/Theme.Translucent.NoTitleBar"
-            android:name="com.google.android.gms.ads.NotificationHandlerActivity"
-            android:exported="false"
-            android:taskAffinity=""
-            android:excludeFromRecents="true"
-            android:launchMode="singleTask" />
-        <meta-data
-            android:name="com.google.android.gms.ads.flag.OPTIMIZE_AD_LOADING"
-            android:value="true" />
-        <meta-data
-            android:name="com.google.android.gms.ads.flag.OPTIMIZE_INITIALIZATION"
-            android:value="true" />
-        <provider
-            android:name="androidx.startup.InitializationProvider"
-            android:exported="false"
-            android:authorities="com.circletosearch.android.androidx-startup">
-            <meta-data
-                android:name="androidx.work.WorkManagerInitializer"
-                android:value="androidx.startup" />
-            <meta-data
-                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-                android:value="androidx.startup" />
-            <meta-data
-                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-                android:value="androidx.startup" />
-            <meta-data
-                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-                android:value="androidx.startup" />
-        </provider>
         <service
             android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
             android:enabled="@bool/enable_system_alarm_service_default"
