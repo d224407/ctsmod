@@ -12,7 +12,7 @@
     return-void
 .end method
 
-.method public static a(Landroid/content/Context;Landroid/content/Intent;)Z
+.method public static b(Landroid/content/Context;)Z
     .locals 5
 
     :try_start_0
@@ -91,6 +91,16 @@
 
     :catch_0
     const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public static a(Landroid/content/Context;Landroid/content/Intent;)Z
+    .locals 1
+
+    invoke-static {p0}, Lcom/circletosearch/android/utils/RootLauncher;->b(Landroid/content/Context;)Z
+
+    move-result v0
 
     return v0
 .end method
